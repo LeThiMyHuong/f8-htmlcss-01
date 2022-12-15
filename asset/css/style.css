@@ -55,16 +55,26 @@ main {
   opacity: 0.9;
 }
 
-.header {
-  height: 100vh;
+.fixed-header {
   background-color: #e6f0ff;
-  position: relative;
+  padding-top: 26px;
+  position: sticky;
+  top: -26px;
+  z-index: 1;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
+}
+
+.hero-wrap {
+  height: 100vh;
+  background-color: #e6f0ff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar-logo {
