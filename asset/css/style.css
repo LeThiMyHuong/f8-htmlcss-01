@@ -70,7 +70,7 @@ main {
 }
 
 .hero-wrap {
-  height: 100vh;
+  height: calc(100vh - 90px);
   background-color: #e6f0ff;
   position: relative;
   display: flex;
